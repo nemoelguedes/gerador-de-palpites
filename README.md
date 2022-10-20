@@ -1,4 +1,4 @@
-# Results Generator to the 2022 World Cup.
+# Gerador de Palpites para a Copa de 2022
 
 This project was developed to generate results from games of the 2022 world cup.
 
