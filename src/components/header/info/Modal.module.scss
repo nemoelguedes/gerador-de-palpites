@@ -1,0 +1,23 @@
+@import '../../../styles/Styles.module.scss';
+
+.modal__container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+    background-color: $second-color;
+}
+
+.modal__title{
+    font-size: 30px;
+    color: $third-color;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.modal__li{
+    font-size: 16px;
+    color: #fff;
+    margin: 22px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}

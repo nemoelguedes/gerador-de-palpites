@@ -1,0 +1,23 @@
+@import '../../styles/Styles.module.scss';
+
+.team__icon{
+  width: 25px;
+  color: $third_color;
+  margin-right: 5px;
+}
+
+.team__data{
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  color: $third_color;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__icon--inactive {
+  color: rgba($color: #fff, $alpha: 0.2);
+  width: 25px;
+}

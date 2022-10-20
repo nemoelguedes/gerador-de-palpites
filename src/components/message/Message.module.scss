@@ -1,0 +1,31 @@
+@import '../../styles/Styles.module.scss';
+
+.messageDiv{
+  height: 60px;
+  background-color: $third-color;
+  width: 100%;
+  animation: fadeIn 500ms ease-out backwards;
+  transform-origin: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-delay: 800ms;
+}
+
+.messageWarning{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}

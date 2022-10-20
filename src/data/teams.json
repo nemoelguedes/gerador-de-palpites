@@ -1,0 +1,258 @@
+[
+  {
+    "teams": "Alemanha",
+    "championships": 4,
+    "ranking": 11,
+    "rankpoints": 1650,
+    "flag" : "assets/bandeira/alemanha.svg",
+    "id": "alemanha"
+  },
+  {
+    "teams": "Arábia Saudita",
+    "championships": 0,
+    "ranking": 51,
+    "rankpoints": 1438,
+    "flag" : "assets/bandeira/arabia_saudita.svg",
+    "id": "arabiasaudita"
+  },
+  {
+    "teams": "Argentina",
+    "championships": 2,
+    "ranking": 3,
+    "rankpoints": 1774,
+    "flag" : "assets/bandeira/argentina.svg",
+    "id": "argentina"
+  },
+  {
+    "teams": "Austrália",
+    "championships": 0,
+    "ranking": 38,
+    "rankpoints": 1489,
+    "flag" : "assets/bandeira/australia.svg",
+    "id": "australia"
+  },
+  {
+    "teams": "Bélgica",
+    "championships": 0,
+    "ranking": 2,
+    "rankpoints": 1817,
+    "flag" : "assets/bandeira/belgica.svg",
+    "id": "belgica"
+  },
+  {
+    "teams": "Brasil",
+    "championships": 5,
+    "ranking": 1,
+    "rankpoints": 1841,
+    "flag" : "assets/bandeira/brasil.svg",
+    "id": "brasil"
+  },
+  {
+    "teams": "Camarões",
+    "championships": 0,
+    "ranking": 43,
+    "rankpoints": 1471,
+    "flag" : "assets/bandeira/camaroes.svg",
+    "id": "camaroes"
+  },
+  {
+    "teams": "Canadá",
+    "championships": 0,
+    "ranking": 41,
+    "rankpoints": 1475,
+    "flag" : "assets/bandeira/canada.svg",
+    "id": "canada"
+  },
+  {
+    "teams": "Catar",
+    "championships": 0,
+    "ranking": 50,
+    "rankpoints": 1440,
+    "flag" : "assets/bandeira/catar.svg",
+    "id": "catar"
+  },
+  {
+    "teams": "Coreia do Sul",
+    "championships": 0,
+    "ranking": 28,
+    "rankpoints": 1530,
+    "flag" : "assets/bandeira/coreia_do_sul.svg",
+    "id": "coreiadosul"
+  },
+  {
+    "teams": "Costa Rica",
+    "championships": 0,
+    "ranking": 31,
+    "rankpoints": 1504,
+    "flag" : "assets/bandeira/costa_rica.svg",
+    "id": "costarica"
+  },
+  {
+    "teams": "Croácia",
+    "championships": 0,
+    "ranking": 12,
+    "rankpoints": 1646,
+    "flag" : "assets/bandeira/croacia.svg",
+    "id": "croacia"
+  },
+  {
+    "teams": "Dinamarca",
+    "championships": 0,
+    "ranking": 10,
+    "rankpoints": 1667,
+    "flag" : "assets/bandeira/dinamarca.svg",
+    "id": "dinamarca"
+  },
+  {
+    "teams": "Equador",
+    "championships": 0,
+    "ranking": 44,
+    "rankpoints": 1464,
+    "flag" : "assets/bandeira/equador.svg",
+    "id": "equador"
+  },
+  {
+    "teams": "Espanha",
+    "championships": 1,
+    "ranking": 7,
+    "rankpoints": 1715,
+    "flag" : "assets/bandeira/espanha.svg",
+    "id": "espanha"
+  },
+  {
+    "teams": "Estados Unidos",
+    "championships": 0,
+    "ranking": 16,
+    "rankpoints": 1628,
+    "flag" : "assets/bandeira/estados_unidos.svg",
+    "id": "estadosunidos"
+  },
+  {
+    "teams": "França",
+    "championships": 2,
+    "ranking": 4,
+    "rankpoints": 1760,
+    "flag" : "assets/bandeira/franca.svg",
+    "id": "franca"
+  },
+  {
+    "teams": "Gana",
+    "championships": 0,
+    "ranking": 61,
+    "rankpoints": 1393,
+    "flag" : "assets/bandeira/gana.svg",
+    "id": "gana"
+  },
+  {
+    "teams": "Holanda",
+    "championships": 0,
+    "ranking": 8,
+    "rankpoints": 1695,
+    "flag" : "assets/bandeira/holanda.svg",
+    "id": "holanda"
+  },
+  {
+    "teams": "Inglaterra",
+    "championships": 1,
+    "ranking": 5,
+    "rankpoints": 1729,
+    "flag" : "assets/bandeira/inglaterra.svg",
+    "id": "inglaterra"
+  },
+  {
+    "teams": "Irã",
+    "championships": 0,
+    "ranking": 20,
+    "rankpoints": 1565,
+    "flag" : "assets/bandeira/ira.svg",
+    "id": "ira"
+  },
+  {
+    "teams": "Japão",
+    "championships": 0,
+    "ranking": 24,
+    "rankpoints": 1560,
+    "flag" : "assets/bandeira/japao.svg",
+    "id": "japao"
+  },
+  {
+    "teams": "Marrocos",
+    "championships": 0,
+    "ranking": 22,
+    "rankpoints": 1564,
+    "flag" : "assets/bandeira/marrocos.svg",
+    "id": "marrocos"
+  },
+  {
+    "teams": "México",
+    "championships": 0,
+    "ranking": 13,
+    "rankpoints": 1645,
+    "flag" : "assets/bandeira/mexico.svg",
+    "id": "mexico"
+  },
+  {
+    "teams": "País de Gales",
+    "championships": 0,
+    "ranking": 19,
+    "rankpoints": 1570,
+    "flag" : "assets/bandeira/pais_de_gales.svg",
+    "id": "paisdegales"
+  },
+  {
+    "teams": "Polônia",
+    "championships": 0,
+    "ranking": 26,
+    "rankpoints": 1549,
+    "flag" : "assets/bandeira/polonia.svg",
+    "id": "polonia"
+  },
+  {
+    "teams": "Portugal",
+    "championships": 0,
+    "ranking": 9,
+    "rankpoints": 1677,
+    "flag" : "assets/bandeira/portugal.svg",
+    "id": "portugal"
+  },
+  {
+    "teams": "Senegal",
+    "championships": 0,
+    "ranking": 18,
+    "rankpoints": 1584,
+    "flag" : "assets/bandeira/senegal.svg",
+    "id": "senegal"
+  },
+  {
+    "teams": "Sérvia",
+    "championships": 0,
+    "ranking": 21,
+    "rankpoints": 1564,
+    "flag" : "assets/bandeira/servia.svg",
+    "id": "servia"
+  },
+  {
+    "teams": "Suíça",
+    "championships": 0,
+    "ranking": 15,
+    "rankpoints": 1636,
+    "flag" : "assets/bandeira/suica.svg",
+    "id": "suica"
+  },
+  {
+    "teams": "Tunísia",
+    "championships": 0,
+    "ranking": 30,
+    "rankpoints": 1508,
+    "flag" : "assets/bandeira/tunisia.svg",
+    "id": "tunisia"
+  },
+  {
+    "teams": "Uruguai",
+    "championships": 2,
+    "ranking": 14,
+    "rankpoints": 1639,
+    "flag" : "assets/bandeira/uruguai.svg",
+    "id": "uruguai"
+  }
+]

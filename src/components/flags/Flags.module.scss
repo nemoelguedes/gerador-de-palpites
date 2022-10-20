@@ -1,0 +1,17 @@
+@import '../../styles/Styles.module.scss';
+
+.flag{
+  width: 40%;
+  max-width: 400px;
+  min-height: 150px;
+  margin: 0;
+}
+
+.flag__image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 150px;
+  text-align: right;
+}

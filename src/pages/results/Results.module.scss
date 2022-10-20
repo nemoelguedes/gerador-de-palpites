@@ -1,0 +1,23 @@
+.container{
+  width: 100%;
+}
+
+.team__container{
+  width: 100%;
+}
+
+.team__content{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  min-height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__separador{
+  width: 100%;
+  max-width: 900px;
+  border-color: rgba($color: #fff, $alpha: 0.3);
+}

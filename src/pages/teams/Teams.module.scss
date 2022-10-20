@@ -1,0 +1,93 @@
+@import '../../styles/Styles.module.scss';
+
+.container{
+  width: 100%;
+}
+
+.team__data{
+  width: 50%;
+  text-align: center;
+  font-size: 35px;
+  color: $third_color;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.team__background{
+  width: 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-position: 0 70%;
+  background-image: url(../../../public/assets/futebol.jpg);
+}
+
+.hrHeader{
+  height: 3px;
+  width: 85%;
+  background-color: #fff;
+  display: block;
+  float: right;
+  animation: entrance 1.2s steps(50, end);
+  margin: 0px;
+}
+
+@keyframes entrance {
+from { width: 100% }
+to { width: 15% }
+}
+
+.team__container{
+  width: 100%;
+  text-align: center;
+}
+
+.background__secondColor{
+  background-color: $second-color;
+}
+
+
+.team__content{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  min-height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.team__separador{
+  width: 100%;
+  max-width: 900px;
+  border-color: rgba($color: #fff, $alpha: 0.3);
+}
+
+.hidden{
+  display: none;
+  visibility:hidden;
+}
+
+.button{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  min-width: 100px;
+  text-transform: uppercase;
+  background-color: $third-color;
+  padding: 16px 64px;
+  border: 2px solid $third-color;
+  border-radius: 45px;
+  margin-top: 15px;
+}
+
+.button:hover{
+  border: 3px solid $third-color;
+  transform: scale(1.1);
+  transition: transform 1s;
+}

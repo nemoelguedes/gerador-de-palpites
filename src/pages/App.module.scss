@@ -1,0 +1,99 @@
+@import '../styles/Styles.module.scss';
+
+.sectionSelect{
+  width: 100%;
+  height: calc(100vh - 220px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectOptions{
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  border: none;
+  flex-direction: row;
+  min-height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  margin: 4px;
+  margin-bottom: 20px;
+  width: 11%;
+  background: none;
+  border: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectTeam:hover {
+  border: 4px solid $third-color;
+  transform: scale(1.2);
+  transition: transform 2s;
+  margin-bottom: 1px;
+}
+
+.selectTeam{
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+  width: 90px;
+  height: 50px;
+  box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.3);
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.selectTeam--active{
+  border: 4px solid $third-color;
+  transform: scale(1.2);
+  transition: transform 2s;
+}
+
+.title{
+  font-size: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.hidden{
+  display: none;
+  visibility:hidden;
+}
+
+.iconClose{
+  margin: 1px;
+  color: $third-color;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(3px 3px 7px rgba(72, 72, 72, 0.4));
+}
+
+.iconCloseDiv{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: calc(50% - 16px);
+  text-align: center;
+  background-color: $second-color;
+  border-radius: 50px;
+  margin-top: 80px;
+  padding: 0;
+}

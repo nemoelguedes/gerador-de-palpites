@@ -1,0 +1,10 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+$primary-color : #8c0a30;
+$second-color : #380114;
+$third-color : #e23f16;
+
+:root{
+    background: linear-gradient(90deg, $primary-color 0%, $second-color 100%);
+}

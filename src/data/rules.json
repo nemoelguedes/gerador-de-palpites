@@ -1,0 +1,20 @@
+[
+  {
+    "content": "A quantidade de títulos mundiais gera uma pontuação entre 1000 e 1800, entre 0 e 5 títulos respectivamente."
+  },
+  {
+    "content": "O Ranking da Fifa em outubro de 2022, que considera pontuações entre 1300 e 1900."
+  },
+  {
+    "content": "A qualidade do ataque informado, gerando pontuações entre 100 e 500."
+  },
+  {
+    "content": "A qualidade da defesa informada, gerando pontuações entre 100 e 500."
+  },
+  {
+    "content": "É considerado a fase do evento, grupos ou mata-mata, para geração de resultados."
+  },
+  {
+    "content": "O cálculo é gerado pela soma das 4 pontuações e a aleatoriade do resultado é baseada na diferença entre os resultados."
+  }
+]
