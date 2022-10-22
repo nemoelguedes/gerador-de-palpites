@@ -23,7 +23,7 @@ export default function Teams(props: ITeams) {
   const dataSecondTeam = dataTeams.filter(team => listSelectedTeams[1] == team.id);
   const secondTeam = dataSecondTeam.map(m => [m.teams, m.championships, m.ranking, m.rankpoints, m.flag, m.id]).flat() as Iteam;
 
-
+  console.log("renderizou teams");
 
   // // DATA TO GENERATE RESULTS
   const [firstAttackRating, setfirstAttackRating] = useState(0);
@@ -38,7 +38,6 @@ export default function Teams(props: ITeams) {
   const updateFirstDefenseRating = (r: number) => { setFirstDefenseRating(r); };
   const updateSecondDefenseRating = (r: number) => { setSecondDefenseRating(r); };
 
-  console.log("renderizou teams", firstAttackRating);
 
   const [allSelected, setAllSelected] = useState(false);
 
