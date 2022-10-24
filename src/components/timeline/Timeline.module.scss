@@ -1,0 +1,67 @@
+@import '../../styles/Styles.module.scss';
+
+.timeline__div {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border: $primary-color 3px solid;
+  border-radius: 50px;
+}
+
+.timeline__line {
+  width: 100%;
+  max-width: 900px;
+  height: 8px;
+  border-radius: 50px;
+  background-color: $third-color;
+  animation: entrance 5s steps(180, end) backwards;
+  margin-bottom: 0;
+  transform-origin: left;
+  animation-delay: 1s;
+
+}
+
+
+@keyframes entrance {
+from { width: 0% }
+to { width: 100% }
+}
+
+
+.time {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.time__start {
+  width: 8.3%;
+  text-align: left;
+  font-size: 15px;
+  color: #f1f1f1;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}
+
+.time__half {
+  width: 16.6%;
+  text-align: center;
+  font-size: 15px;
+  color: #f1f1f1;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}
+
+.time__end {
+  width: 8.5%;
+  text-align: right;
+  font-size: 15px;
+  color: #f1f1f1;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}

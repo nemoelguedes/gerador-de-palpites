@@ -2,6 +2,7 @@ import classNames from "classnames";
 import Ranking from "components/ranking";
 import Score from "components/score";
 import TitleSeparador from "components/separador";
+import Timeline from "components/timeline";
 import { useEffect, useState } from "react";
 import style from "./Results.module.scss";
 
@@ -48,6 +49,12 @@ export default function Results(props: IResults) {
       <div>
         <Score scoreFirst={pointsTeams[0]} scoreSecond={pointsTeams[1]} />
       </div>
+
+      <div>
+        <Timeline />
+      </div>
+
+
 
     </section>
   );
