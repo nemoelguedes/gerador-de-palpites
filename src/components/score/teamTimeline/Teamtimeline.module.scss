@@ -1,0 +1,43 @@
+@import '../../../styles/Styles.module.scss';
+
+.containter{
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag{
+  width: 30px;
+  height: 30px;
+  border-radius: 90px;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  border: 2px solid $third-color;
+}
+
+.divgoals{
+  width: calc(100% - 35px);
+  display: inline-block;
+}
+
+.goals{
+  width: 25px;
+  height: 25px;
+  color: $third_color;
+  margin-right: 5px;
+  position: relative;
+  animation: entrance 1s backwards;
+
+}
+
+
+@keyframes entrance {
+from { height: 0px; }
+to { height: 25px; }
+}

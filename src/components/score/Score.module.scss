@@ -1,0 +1,73 @@
+@import '../../styles/Styles.module.scss';
+
+.section{
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.timeline__div {
+  width: 100%;
+  max-width: 820px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border: $primary-color 3px solid;
+  border-radius: 50px;
+}
+
+.timeline__line {
+  width: 100%;
+  max-width: 820px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: $third-color;
+  animation: entrance 2s steps(180, end) backwards;
+  margin-bottom: 0;
+  transform-origin: left;
+  animation-delay: 1s;
+
+}
+
+
+@keyframes entrance {
+from { width: 0% }
+to { width: 100% }
+}
+
+
+.time {
+  width: 100%;
+  max-width: 814px;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  margin-top: -20px;
+}
+
+.time__start {
+  width: 8.3%;
+  text-align: left;
+  font-size: 15px;
+  color: rgba($color: #fff, $alpha: 0.5);
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}
+
+.time__half {
+  width: 16.6%;
+  text-align: center;
+  font-size: 15px;
+  color: rgba($color: #fff, $alpha: 0.5);
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}
+
+.time__end {
+  width: 8.5%;
+  text-align: right;
+  font-size: 15px;
+  color: rgba($color: #fff, $alpha: 0.5);
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}
