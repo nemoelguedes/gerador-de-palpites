@@ -51,9 +51,8 @@
 }
 
 .modal--open {
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 70px);
-  position: fixed;
   display: flex;
   align-items: center;
   background-color: $second-color;

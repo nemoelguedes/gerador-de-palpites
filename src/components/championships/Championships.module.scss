@@ -4,6 +4,10 @@
   width: 25px;
   color: $third_color;
   margin-right: 5px;
+  
+  @media screen and (max-width: 600px) {
+    width: 20px;
+  }
 }
 
 .team__data{
@@ -15,6 +19,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 600px) {
+    font-size: 20px;
+  }
 }
 
 .team__icon--inactive {

@@ -6,6 +6,11 @@
   outline: none;
   cursor: pointer;
   font-size: 24px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 20px;
+    margin: 0;
+  }
 }
 
 .on {
@@ -21,4 +26,5 @@
   font-size: 35px;
   color: $third_color;
   font-family: 'Bebas Neue', cursive;
+
 }

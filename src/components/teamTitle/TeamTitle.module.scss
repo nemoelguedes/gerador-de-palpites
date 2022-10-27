@@ -4,4 +4,8 @@
   color: #fff;
   font-family: 'Bebas Neue', cursive;
   margin: 5px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 20px;
+  }
 }

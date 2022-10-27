@@ -3,6 +3,10 @@
   max-width: 900px;
   margin: auto;
   margin-top: 50px;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 20px;
+  }
 }
 
 .team__container{
@@ -17,6 +21,11 @@
   min-height: 50px;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 600px) {
+    width: 90%;
+    margin: auto;
+  }
 }
 
 .team__separador{

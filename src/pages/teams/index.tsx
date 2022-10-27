@@ -23,8 +23,6 @@ export default function Teams(props: ITeams) {
   const dataSecondTeam = dataTeams.filter(team => listSelectedTeams[1] == team.id);
   const secondTeam = dataSecondTeam.map(m => [m.teams, m.championships, m.ranking, m.rankpoints, m.flag, m.id]).flat() as Iteam;
 
-  console.log("renderizou teams");
-
   // // DATA TO GENERATE RESULTS
   const [firstAttackRating, setfirstAttackRating] = useState(0);
   const [secondAttackRating, setSecondAttackRating] = useState(0);
@@ -53,36 +51,41 @@ export default function Teams(props: ITeams) {
     setAllSelected(false);
   }
 
-  const [resultsScreen, setResultsScreen] = useState(false);
+  const [showTeamScreen, setShowTeamScreen] = useState(false);
+  const [showResultsScreen, setShowResultsScreen] = useState(false);
   const [buttonMessage, setButtonMessage] = useState(false);
+
 
   function gerarPalpite() {
 
-    if (allSelected !== true) {
+    if (allSelected == false) {
       setButtonMessage(true);
     } else {
-      setResultsScreen(true);
+      setShowResultsScreen(true);
+      setShowTeamScreen(false);
     }
   }
 
-  const [teamRating, setTeamRating] = useState(false);
+  useEffect(() => {
+    if (listSelectedTeams.length !== 2 && showTeamScreen == true
+      || listSelectedTeams.length !== 2 && showResultsScreen == true) {
+      setShowTeamScreen(false);
+      setShowResultsScreen(false);
+    }
 
-  if(listSelectedTeams.length == 2 && teamRating == false) {
-    setTeamRating(true);
-  } else if (listSelectedTeams.length !== 2 && teamRating == !false) {
-    setTeamRating(false);
-    setResultsScreen(false);
-  }
+    else if (listSelectedTeams.length == 2 && showTeamScreen == false && showResultsScreen == false) {
+      setShowTeamScreen(true);
+    }
+  }, [listSelectedTeams]);
 
-
+  console.log("showTeamScreen", showTeamScreen);
 
 
   return (
     <>
       <section className={classNames({
         [style.container]: true,
-        [style.hidden]: teamRating,
-        [style.hidden]: resultsScreen,
+        [style.hidden]: !showTeamScreen,
       })}>
 
 
@@ -101,7 +104,7 @@ export default function Teams(props: ITeams) {
           <div className={style.team__content}>
             <TeamTitle title={firstTeam[0]} width={50} />
             <TitleSeparador content={<img src="assets/vs.png" ></img>} />
-            <TeamTitle title={secondTeam[0]}  width={50} />
+            <TeamTitle title={secondTeam[0]} width={50} />
           </div>
           <hr className={style.team__separador}></hr>
         </div>
@@ -164,7 +167,7 @@ export default function Teams(props: ITeams) {
 
       {/* // TEAM [TEAM, CHAMPIONSHIPS, RANK, RANKPOINTS, FLAG, ID, ATTACK, DEFENSE] */}
       <div className={classNames({
-        [style.hidden]: !resultsScreen,
+        [style.hidden]: !showResultsScreen,
       })}>
 
         <Results firstTeam={[firstTeam[0], firstTeam[1], firstTeam[2], firstTeam[3], firstTeam[4], firstTeam[5], firstAttackRating, firstDefenseRating]} secondTeam={[secondTeam[0], secondTeam[1], secondTeam[2], secondTeam[3], secondTeam[4], secondTeam[5], secondAttackRating, secondDefenseRating]} />
