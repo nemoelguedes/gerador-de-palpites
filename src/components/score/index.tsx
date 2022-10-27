@@ -11,6 +11,7 @@ type IScore = {
   flagSecond: string,
   titleFirst: string,
   titleSecond: string,
+  handleGoals: any,
 }
 
 export default function Score(props: IScore) {
@@ -49,6 +50,10 @@ export default function Score(props: IScore) {
 
   }, [firstTeam, secondTeam]);
 
+  useEffect(() => {
+    props.handleGoals(score);
+  }, [score]);
+
   function scoreGenerator(min: number, max: number, results: number[]) {
     const scoreMin = Math.ceil(min);
     const scoreMax = Math.floor(max);
@@ -64,18 +69,8 @@ export default function Score(props: IScore) {
     }
   }
 
-
-  console.log("diferença", difference, firstTeam, secondTeam);
-
-  console.log("o jogo deu", score);
-
-
-
   return (
     <section className={style.section}>
-      <div>
-        {score[0]}...{score[1]}
-      </div>
       <TeamTimeline flag={props.flagFirst} title={props.titleFirst} score={score[0]} />
       <div className={style.timeline__div}>
         <div className={style.timeline__line}>

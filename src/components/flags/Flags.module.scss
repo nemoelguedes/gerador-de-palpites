@@ -1,17 +1,23 @@
 @import '../../styles/Styles.module.scss';
 
 .flag{
-  width: 40%;
-  max-width: 400px;
-  min-height: 150px;
-  margin: 0;
-}
-
-.flag__image{
+  width: 100%;
+  max-width: 150px;
+  min-height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
-  min-height: 150px;
   text-align: right;
+  border-radius: 70px;
+  box-shadow: 5px 5px 6px rgba($color: #000000, $alpha: 0.2);
+}
+
+.flag__div{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }

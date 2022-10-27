@@ -1,88 +1,101 @@
 @import '../../styles/Styles.module.scss';
 
 .header {
-    max-width: 1200px;
-    margin: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: #fff;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: #fff;
 }
 
 .logo {
-    width: 20%;
-    height: 70px;
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
+  width: 20%;
+  height: 70px;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
 }
 
-.title{
-    width: 60%;
-    margin: 0;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-    font-family: 'Bebas Neue', cursive;
-    text-transform: uppercase;
+.title {
+  width: 60%;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
 }
 
-.info{
-    display: flex;
-    width: 10%;
-    margin-left: 10%;
-    text-align: right;
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 25px;
+  }
+  
 }
 
-.info__icon{
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    color: #fff;
+.info {
+  display: flex;
+  width: 10%;
+  margin-left: 10%;
+  text-align: right;
 }
 
-.modal--open{
-    width: 100vw;
-    height: calc(100vh - 70px);
-    position:fixed;
-    display: flex;
-    align-items: center;
-    background-color: $second-color;
-    visibility: visible;
-    animation: fadeIn 1s ease-out backwards;
-    transform-origin: top;
-    animation-delay: 200ms;
+.info__icon {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  color: #fff;
 }
 
-.hidden{
-    visibility: hidden;
-    display: none;
+.modal--open {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: $second-color;
+  visibility: visible;
+  animation: fadeIn 1s ease-out backwards;
+  transform-origin: top;
+  animation-delay: 200ms;
 }
 
-.hrHeader{
-    height: 3px;
-    width: 85%;
-    background-color: #fff;
-    float: left;
-    animation: entrance 1.2s steps(50, end);
-    margin-bottom: 0;
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+.hrHeader {
+  height: 1px;
+  width: 85%;
+  background-color: rgba($color: #fff, $alpha: 0.3);
+  float: left;
+  animation: entrance 1.2s steps(50, end);
+  margin-bottom: 0;
 }
 
 @keyframes entrance {
-  from { width: 0 }
-  to { width: 85% }
+  from {
+    width: 0
+  }
+
+  to {
+    width: 85%
+  }
 }
 
 
 @keyframes fadeIn {
-    from {
-      transform: scaleY(0);
-      opacity: 0;
-    }
-    to {
-      transform: scaleY(1);
-      opacity: 1;
-    }
+  from {
+    transform: scaleY(0);
+    opacity: 0;
   }
+
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}

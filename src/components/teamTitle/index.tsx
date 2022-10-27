@@ -1,11 +1,16 @@
 import style from "./TeamTitle.module.scss";
 
-export default function TeamTitle(props: any) {
+type ITitle = {
+  title: string,
+  width: number,
+}
+
+export default function TeamTitle(props: ITitle) {
 
   const title = props.title;
 
   return (
-    <div className={style.team__title}>
+    <div className={style.team__title} style={{width: `${props.width}%`}}>
       {title}
     </div>
   );

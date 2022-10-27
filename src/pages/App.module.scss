@@ -1,14 +1,23 @@
 @import '../styles/Styles.module.scss';
 
-.sectionSelect{
+.sectionSelect {
   width: 100%;
   height: calc(100vh - 220px);
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+  }
+
 }
 
-.selectOptions{
+
+.selectOptions {
   text-align: center;
   width: 100%;
   max-width: 1200px;
@@ -23,7 +32,7 @@
   flex-wrap: wrap;
 }
 
-.button{
+.button {
   cursor: pointer;
   display: inline-block;
   margin: 4px;
@@ -34,7 +43,14 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 10px;
+    width: 23%;
+  }
 }
+
+
 
 .selectTeam:hover {
   border: 4px solid $third-color;
@@ -43,7 +59,7 @@
   margin-bottom: 1px;
 }
 
-.selectTeam{
+.selectTeam {
   cursor: pointer;
   display: flex;
   margin: auto;
@@ -54,15 +70,21 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 600px) {
+    width: 80px;
+    height: 45px;
+  }
 }
 
-.selectTeam--active{
+
+.selectTeam--active {
   border: 4px solid $third-color;
   transform: scale(1.2);
   transition: transform 2s;
 }
 
-.title{
+.title {
   font-size: 10px;
   color: #fff;
   font-weight: 600;
@@ -70,30 +92,33 @@
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+
+  @media screen and (max-width: 600px) {
+    font-size: 9px;
+  }
 }
 
-.hidden{
+.hidden {
   display: none;
-  visibility:hidden;
+  visibility: hidden;
 }
 
-.iconClose{
+.iconClose {
   margin: 1px;
-  color: $third-color;
+  color: rgba($color: #fff, $alpha: 0.5);
   cursor: pointer;
   width: 30px;
   height: 30px;
   filter: drop-shadow(3px 3px 7px rgba(72, 72, 72, 0.4));
 }
 
-.iconCloseDiv{
+.iconCloseDiv {
   width: 32px;
   height: 32px;
   position: absolute;
   left: calc(50% - 16px);
   text-align: center;
-  background-color: $second-color;
   border-radius: 50px;
-  margin-top: 80px;
+  margin-top: 110px;
   padding: 0;
 }

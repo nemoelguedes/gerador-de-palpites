@@ -31,13 +31,10 @@ export default function Teams(props: ITeams) {
   const [firstDefenseRating, setFirstDefenseRating] = useState(0);
   const [secondDefenseRating, setSecondDefenseRating] = useState(0);
 
-
-
   const updateFirstAttackRating = (r: number) => { setfirstAttackRating(r); };
   const updateSecondAttackRating = (r: number) => { setSecondAttackRating(r); };
   const updateFirstDefenseRating = (r: number) => { setFirstDefenseRating(r); };
   const updateSecondDefenseRating = (r: number) => { setSecondDefenseRating(r); };
-
 
   const [allSelected, setAllSelected] = useState(false);
 
@@ -57,106 +54,113 @@ export default function Teams(props: ITeams) {
   }
 
   const [resultsScreen, setResultsScreen] = useState(false);
+  const [buttonMessage, setButtonMessage] = useState(false);
 
   function gerarPalpite() {
-    setResultsScreen(true);
+
+    if (allSelected !== true) {
+      setButtonMessage(true);
+    } else {
+      setResultsScreen(true);
+    }
+  }
+
+  const [teamRating, setTeamRating] = useState(false);
+
+  if(listSelectedTeams.length == 2 && teamRating == false) {
+    setTeamRating(true);
+  } else if (listSelectedTeams.length !== 2 && teamRating == !false) {
+    setTeamRating(false);
+    setResultsScreen(false);
   }
 
 
+
+
   return (
-
-    <section className={classNames({
-      [style.container]: true,
-      [listSelectedTeams.length != 2 ? style.hidden : ""]: true,
-    })}>
-
-
-      {/* BANDEIRA */}
-      <div className={style.team__background}>
-        <ImportFlag content={firstTeam[4]} />
-        <TitleSeparador content={""} />
-        <ImportFlag content={secondTeam[4]} />
-      </div>
-
-      {/* NOME DA SELEÇÃO */}
-
-      <div className={classNames({
-        [style.team__container]: true,
-        [style.background__secondColor]: true,
-      })}>
-        <hr className={style.hrHeader}></hr>
-        <div className={style.team__content}>
-          <TeamTitle title={firstTeam[0]} />
-          <TitleSeparador content={<img src="assets/vs.png" ></img>} />
-          <TeamTitle title={secondTeam[0]} />
-        </div>
-      </div>
-
-
-      {/* TÍTULOS */}
-      <div className={classNames({
-        [style.team__container]: true,
+    <>
+      <section className={classNames({
+        [style.container]: true,
+        [style.hidden]: teamRating,
         [style.hidden]: resultsScreen,
       })}>
-        <div className={style.team__content}>
-          <Championships championships={firstTeam[1]} />
-          <TitleSeparador content={"Títulos"} />
-          <Championships championships={secondTeam[1]} />
+
+
+        {/* BANDEIRA */}
+        <div className={style.team__container}>
+          <div className={style.team__content}>
+            <ImportFlag content={firstTeam[4]} />
+            <TitleSeparador content={""} />
+            <ImportFlag content={secondTeam[4]} />
+          </div>
         </div>
-        <hr className={style.team__separador}></hr>
-      </div>
 
 
-      {/* RANKING */}
-      <div className={classNames({
-        [style.team__container]: true,
-        [style.hidden]: resultsScreen,
-      })}>
-        <div className={style.team__content}>
-          <Ranking ranking={firstTeam[2]} info={"º Colocado"} />
-          <TitleSeparador content={"Ranking Fifa"} />
-          <Ranking ranking={secondTeam[2]} info={"º Colocado"} />
+        {/* NOME DA SELEÇÃO */}
+        <div className={style.team__container}>
+          <div className={style.team__content}>
+            <TeamTitle title={firstTeam[0]} width={50} />
+            <TitleSeparador content={<img src="assets/vs.png" ></img>} />
+            <TeamTitle title={secondTeam[0]}  width={50} />
+          </div>
+          <hr className={style.team__separador}></hr>
         </div>
-        <hr className={style.team__separador}></hr>
-      </div>
 
-      {allSelected == true || resultsScreen == true ? "" : <Message mensagem={"Informe a qualidade do Ataque e Defesa das Seleções:"} />}
 
-      {/* ATAQUE */}
-      <div className={classNames({
-        [style.team__container]: true,
-        [style.hidden]: resultsScreen,
-      })}>
-        <div className={style.team__content}>
-          <Rating handleRating={updateFirstAttackRating} content={listSelectedTeams} />
-          <TitleSeparador content={"Ataque"} />
-          <Rating handleRating={updateSecondAttackRating} content={listSelectedTeams} />
+        {/* TÍTULOS */}
+        <div className={style.team__container}>
+          <div className={style.team__content}>
+            <Championships championships={firstTeam[1]} />
+            <TitleSeparador content={"Títulos"} />
+            <Championships championships={secondTeam[1]} />
+          </div>
+          <hr className={style.team__separador}></hr>
         </div>
-        <hr className={style.team__separador}></hr>
-      </div>
 
-      {/* DEFENSE */}
-      <div className={classNames({
-        [style.team__container]: true,
-        [style.hidden]: resultsScreen,
-      })}>
-        <div className={style.team__content}>
-          <Rating handleRating={updateFirstDefenseRating} content={listSelectedTeams} />
-          <TitleSeparador content={"Defesa"} />
-          <Rating handleRating={updateSecondDefenseRating} content={listSelectedTeams} />
+
+        {/* RANKING */}
+        <div className={style.team__container}>
+          <div className={style.team__content}>
+            <Ranking ranking={firstTeam[2]} info={"º Colocado"} />
+            <TitleSeparador content={"Ranking Fifa"} />
+            <Ranking ranking={secondTeam[2]} info={"º Colocado"} />
+          </div>
+          <hr className={style.team__separador}></hr>
         </div>
-        <hr className={style.team__separador}></hr>
-      </div>
+
+        {buttonMessage == true && allSelected == false ? <Message mensagem={"Informe a qualidade do Ataque e Defesa das Seleções:"} /> : ""}
+
+        {/* ATAQUE */}
+        <div className={style.team__container}>
+          <div className={style.team__content}>
+            <Rating handleRating={updateFirstAttackRating} content={listSelectedTeams} />
+            <TitleSeparador content={"Ataque"} />
+            <Rating handleRating={updateSecondAttackRating} content={listSelectedTeams} />
+          </div>
+          <hr className={style.team__separador}></hr>
+        </div>
+
+        {/* DEFENSE */}
+        <div className={style.team__container}>
+          <div className={style.team__content}>
+            <Rating handleRating={updateFirstDefenseRating} content={listSelectedTeams} />
+            <TitleSeparador content={"Defesa"} />
+            <Rating handleRating={updateSecondDefenseRating} content={listSelectedTeams} />
+          </div>
+          <hr className={style.team__separador}></hr>
+        </div>
 
 
-      <div className={classNames({
-        [style.team__container]: true,
-        [style.hidden]: resultsScreen,
-      })}>
-        
-        <button className={style.button} onClick={gerarPalpite} >Gerar Palpite</button>
 
-      </div>
+
+        <div className={style.team__container}>
+          <button className={classNames({
+            [style.button]: true,
+            [allSelected == true ? style["button--active"] : style["button--inactive"]]: true,
+          })} onClick={gerarPalpite}>Gerar Palpite</button>
+
+        </div>
+      </section >
 
       {/* // TEAM [TEAM, CHAMPIONSHIPS, RANK, RANKPOINTS, FLAG, ID, ATTACK, DEFENSE] */}
       <div className={classNames({
@@ -165,6 +169,7 @@ export default function Teams(props: ITeams) {
 
         <Results firstTeam={[firstTeam[0], firstTeam[1], firstTeam[2], firstTeam[3], firstTeam[4], firstTeam[5], firstAttackRating, firstDefenseRating]} secondTeam={[secondTeam[0], secondTeam[1], secondTeam[2], secondTeam[3], secondTeam[4], secondTeam[5], secondAttackRating, secondDefenseRating]} />
       </div>
-    </section >
+
+    </>
   );
 }

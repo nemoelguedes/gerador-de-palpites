@@ -16,7 +16,7 @@ export default function Rating(props: any) {
   const teamsSelected = props.content;
 
   useEffect(() => {
-    if (rating !== 0 && teamsSelected.length == 0){
+    if (rating !== 0 && teamsSelected == 0){
       setRating(ratingInicialValue);
     }
   },[teamsSelected]);
