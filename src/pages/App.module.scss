@@ -9,7 +9,7 @@
   align-items: center;
 
   @media only screen and (max-width: 600px) {
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 30px;
     height: auto;
@@ -47,7 +47,7 @@
 
   @media only screen and (max-width: 600px) {
     margin-bottom: 10px;
-    width: 23%;
+    width: 20%;
   }
 
   @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -79,7 +79,12 @@
   background-position: center;
   margin-bottom: 10px;
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 600px) {
+    width: 70px;
+    height: 40px;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
     width: 80px;
     height: 45px;
   }
@@ -102,7 +107,7 @@
   width: 100%;
 
   @media screen and (max-width: 600px) {
-    font-size: 9px;
+    font-size: 7px;
   }
 }
 

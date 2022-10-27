@@ -16,6 +16,10 @@
   margin-top: 8px;
   display: flex;
   align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    height: 50px;
+  }
 }
 
 .title {
@@ -27,14 +31,12 @@
   color: #fff;
   font-family: 'Bebas Neue', cursive;
   text-transform: uppercase;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 20px;
+  }
 }
 
-@media only screen and (max-width: 600px) {
-  .title {
-    font-size: 25px;
-  }
-  
-}
 
 .info {
   display: flex;

@@ -11,6 +11,11 @@
   font-family: 'Bebas Neue', cursive;
   color: #fff;
   padding: 10px;
+
+  @media screen and (max-width: 600px) {
+    width: 40px;
+    font-size: 35px;
+  }
 }
 
 
