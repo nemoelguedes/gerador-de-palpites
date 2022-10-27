@@ -73,4 +73,5 @@ export default function App() {
       <Teams selected={selectedTeams} />
     </>
   );
+  
 }
