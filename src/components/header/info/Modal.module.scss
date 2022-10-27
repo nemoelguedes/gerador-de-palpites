@@ -11,6 +11,9 @@
     font-size: 30px;
     color: $third-color;
     font-family: 'Bebas Neue', cursive;
+    @media only screen and (max-width: 600px) {
+        font-size: 20px;
+      }
 }
 
 .modal__li{
@@ -18,6 +21,10 @@
     color: #fff;
     margin: 22px;
     font-family: 'Open Sans', sans-serif;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 12px;
+      }
     
 
 }
