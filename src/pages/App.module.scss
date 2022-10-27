@@ -33,26 +33,30 @@
   flex-wrap: wrap;
 }
 
-.button {
+.buttonFlag {
   cursor: pointer;
   display: inline-block;
-  margin: 4px;
-  margin-bottom: 20px;
-  width: 11%;
+  margin: 1%;
+  margin-bottom: 10px;
+  width: 10%;
   background: none;
   border: none;
   text-align: center;
   align-items: center;
   justify-content: center;
+  padding: 5px;
 
   @media only screen and (max-width: 600px) {
     margin-bottom: 10px;
     width: 20%;
+    padding: 0;
   }
 
   @media screen and (min-width: 601px) and (max-width: 900px) {
     margin-bottom: 10px;
     width: 14%;
+    padding: 0;
+
   }
 
   
@@ -70,7 +74,7 @@
 .selectTeam {
   cursor: pointer;
   display: flex;
-  margin: auto;
+  margin: 0;
   width: 100%;
   box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.3);
   border-radius: 10px;
@@ -80,10 +84,14 @@
 
   @media screen and (max-width: 600px) {
     width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
   }
 
   @media screen and (min-width: 601px) and (max-width: 900px) {
     width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
   }
 }
 

@@ -1,9 +1,0 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
-	<title>Novo Projeto</title>
-	<defs>
-		<image width="720" height="480" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI4MDAiIHZpZXdCb3g9Ii02MCAtNDAgMTIwIDgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNlNzAwMTMiPjxwYXRoIGQ9Ik0tNjAtNDBINjB2ODBILTYweiIvPjxjaXJjbGUgZmlsbD0iI2ZmZiIgcj0iMjAiLz48Y2lyY2xlIHI9IjE1Ii8+PGNpcmNsZSBmaWxsPSIjZmZmIiBjeD0iNCIgcj0iMTIiLz48cGF0aCBkPSJNLTUgMGwxNi4yODEtNS4yOUwxLjIyIDguNTZWLTguNTZMMTEuMjggNS4yOXoiLz48L3N2Zz4="/>
-	</defs>
-	<style>
-	</style>
-	<use id="tunisia" href="#img1" transform="matrix(.833,0,0,.729,0,0)"/>
-</svg>

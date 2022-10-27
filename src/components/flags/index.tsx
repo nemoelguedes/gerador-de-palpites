@@ -6,8 +6,7 @@ export default function ImportFlag(props: any) {
 
   return (
     <div className={style.flag__div}>
-      <div className={style.flag} style={{ backgroundImage: `url(${flag})` }}>
-      </div>
+      <img className={style.flag} src={flag} />
     </div>
   );
 }

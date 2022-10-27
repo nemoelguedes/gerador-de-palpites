@@ -51,7 +51,7 @@ export default function App() {
 
           {dataTeams.map((team, index) => (
             <button id={team.id} key={uuidv4()}
-              className={style.button}
+              className={style.buttonFlag}
               onClick={(e) => onSelect(team.id)}>
 
               <img src={team.flag} className={classNames({

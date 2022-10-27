@@ -4,7 +4,7 @@
     "championships": 4,
     "ranking": 11,
     "rankpoints": 1650,
-    "flag" : "assets/bandeira/alemanha.svg",
+    "flag" : "assets/bandeira/alemanha.png",
     "id": "alemanha"
   },
   {
@@ -12,7 +12,7 @@
     "championships": 0,
     "ranking": 51,
     "rankpoints": 1438,
-    "flag" : "assets/bandeira/arabia_saudita.svg",
+    "flag" : "assets/bandeira/arabia_saudita.png",
     "id": "arabiasaudita"
   },
   {
@@ -20,7 +20,7 @@
     "championships": 2,
     "ranking": 3,
     "rankpoints": 1774,
-    "flag" : "assets/bandeira/argentina.svg",
+    "flag" : "assets/bandeira/argentina.png",
     "id": "argentina"
   },
   {
@@ -28,7 +28,7 @@
     "championships": 0,
     "ranking": 38,
     "rankpoints": 1489,
-    "flag" : "assets/bandeira/australia.svg",
+    "flag" : "assets/bandeira/australia.png",
     "id": "australia"
   },
   {
@@ -36,7 +36,7 @@
     "championships": 0,
     "ranking": 2,
     "rankpoints": 1817,
-    "flag" : "assets/bandeira/belgica.svg",
+    "flag" : "assets/bandeira/belgica.png",
     "id": "belgica"
   },
   {
@@ -44,7 +44,7 @@
     "championships": 5,
     "ranking": 1,
     "rankpoints": 1841,
-    "flag" : "assets/bandeira/brasil.svg",
+    "flag" : "assets/bandeira/brasil.png",
     "id": "brasil"
   },
   {
@@ -52,7 +52,7 @@
     "championships": 0,
     "ranking": 43,
     "rankpoints": 1471,
-    "flag" : "assets/bandeira/camaroes.svg",
+    "flag" : "assets/bandeira/camaroes.png",
     "id": "camaroes"
   },
   {
@@ -60,7 +60,7 @@
     "championships": 0,
     "ranking": 41,
     "rankpoints": 1475,
-    "flag" : "assets/bandeira/canada.svg",
+    "flag" : "assets/bandeira/canada.png",
     "id": "canada"
   },
   {
@@ -68,7 +68,7 @@
     "championships": 0,
     "ranking": 50,
     "rankpoints": 1440,
-    "flag" : "assets/bandeira/catar.svg",
+    "flag" : "assets/bandeira/catar.png",
     "id": "catar"
   },
   {
@@ -76,7 +76,7 @@
     "championships": 0,
     "ranking": 28,
     "rankpoints": 1530,
-    "flag" : "assets/bandeira/coreia_do_sul.svg",
+    "flag" : "assets/bandeira/coreia_do_sul.png",
     "id": "coreiadosul"
   },
   {
@@ -84,7 +84,7 @@
     "championships": 0,
     "ranking": 31,
     "rankpoints": 1504,
-    "flag" : "assets/bandeira/costa_rica.svg",
+    "flag" : "assets/bandeira/costa_rica.png",
     "id": "costarica"
   },
   {
@@ -92,7 +92,7 @@
     "championships": 0,
     "ranking": 12,
     "rankpoints": 1646,
-    "flag" : "assets/bandeira/croacia.svg",
+    "flag" : "assets/bandeira/croacia.png",
     "id": "croacia"
   },
   {
@@ -100,7 +100,7 @@
     "championships": 0,
     "ranking": 10,
     "rankpoints": 1667,
-    "flag" : "assets/bandeira/dinamarca.svg",
+    "flag" : "assets/bandeira/dinamarca.png",
     "id": "dinamarca"
   },
   {
@@ -108,7 +108,7 @@
     "championships": 0,
     "ranking": 44,
     "rankpoints": 1464,
-    "flag" : "assets/bandeira/equador.svg",
+    "flag" : "assets/bandeira/equador.png",
     "id": "equador"
   },
   {
@@ -116,7 +116,7 @@
     "championships": 1,
     "ranking": 7,
     "rankpoints": 1715,
-    "flag" : "assets/bandeira/espanha.svg",
+    "flag" : "assets/bandeira/espanha.png",
     "id": "espanha"
   },
   {
@@ -124,7 +124,7 @@
     "championships": 0,
     "ranking": 16,
     "rankpoints": 1628,
-    "flag" : "assets/bandeira/estados_unidos.svg",
+    "flag" : "assets/bandeira/estados_unidos.png",
     "id": "estadosunidos"
   },
   {
@@ -132,7 +132,7 @@
     "championships": 2,
     "ranking": 4,
     "rankpoints": 1760,
-    "flag" : "assets/bandeira/franca.svg",
+    "flag" : "assets/bandeira/franca.png",
     "id": "franca"
   },
   {
@@ -140,7 +140,7 @@
     "championships": 0,
     "ranking": 61,
     "rankpoints": 1393,
-    "flag" : "assets/bandeira/gana.svg",
+    "flag" : "assets/bandeira/gana.png",
     "id": "gana"
   },
   {
@@ -148,7 +148,7 @@
     "championships": 0,
     "ranking": 8,
     "rankpoints": 1695,
-    "flag" : "assets/bandeira/holanda.svg",
+    "flag" : "assets/bandeira/holanda.png",
     "id": "holanda"
   },
   {
@@ -156,7 +156,7 @@
     "championships": 1,
     "ranking": 5,
     "rankpoints": 1729,
-    "flag" : "assets/bandeira/inglaterra.svg",
+    "flag" : "assets/bandeira/inglaterra.png",
     "id": "inglaterra"
   },
   {
@@ -164,7 +164,7 @@
     "championships": 0,
     "ranking": 20,
     "rankpoints": 1565,
-    "flag" : "assets/bandeira/ira.svg",
+    "flag" : "assets/bandeira/ira.png",
     "id": "ira"
   },
   {
@@ -172,7 +172,7 @@
     "championships": 0,
     "ranking": 24,
     "rankpoints": 1560,
-    "flag" : "assets/bandeira/japao.svg",
+    "flag" : "assets/bandeira/japao.png",
     "id": "japao"
   },
   {
@@ -180,7 +180,7 @@
     "championships": 0,
     "ranking": 22,
     "rankpoints": 1564,
-    "flag" : "assets/bandeira/marrocos.svg",
+    "flag" : "assets/bandeira/marrocos.png",
     "id": "marrocos"
   },
   {
@@ -188,7 +188,7 @@
     "championships": 0,
     "ranking": 13,
     "rankpoints": 1645,
-    "flag" : "assets/bandeira/mexico.svg",
+    "flag" : "assets/bandeira/mexico.png",
     "id": "mexico"
   },
   {
@@ -196,7 +196,7 @@
     "championships": 0,
     "ranking": 19,
     "rankpoints": 1570,
-    "flag" : "assets/bandeira/pais_de_gales.svg",
+    "flag" : "assets/bandeira/pais_de_gales.png",
     "id": "paisdegales"
   },
   {
@@ -204,7 +204,7 @@
     "championships": 0,
     "ranking": 26,
     "rankpoints": 1549,
-    "flag" : "assets/bandeira/polonia.svg",
+    "flag" : "assets/bandeira/polonia.png",
     "id": "polonia"
   },
   {
@@ -212,7 +212,7 @@
     "championships": 0,
     "ranking": 9,
     "rankpoints": 1677,
-    "flag" : "assets/bandeira/portugal.svg",
+    "flag" : "assets/bandeira/portugal.png",
     "id": "portugal"
   },
   {
@@ -220,7 +220,7 @@
     "championships": 0,
     "ranking": 18,
     "rankpoints": 1584,
-    "flag" : "assets/bandeira/senegal.svg",
+    "flag" : "assets/bandeira/senegal.png",
     "id": "senegal"
   },
   {
@@ -228,7 +228,7 @@
     "championships": 0,
     "ranking": 21,
     "rankpoints": 1564,
-    "flag" : "assets/bandeira/servia.svg",
+    "flag" : "assets/bandeira/servia.png",
     "id": "servia"
   },
   {
@@ -236,7 +236,7 @@
     "championships": 0,
     "ranking": 15,
     "rankpoints": 1636,
-    "flag" : "assets/bandeira/suica.svg",
+    "flag" : "assets/bandeira/suica.png",
     "id": "suica"
   },
   {
@@ -244,7 +244,7 @@
     "championships": 0,
     "ranking": 30,
     "rankpoints": 1508,
-    "flag" : "assets/bandeira/tunisia.svg",
+    "flag" : "assets/bandeira/tunisia.png",
     "id": "tunisia"
   },
   {
@@ -252,7 +252,7 @@
     "championships": 2,
     "ranking": 14,
     "rankpoints": 1639,
-    "flag" : "assets/bandeira/uruguai.svg",
+    "flag" : "assets/bandeira/uruguai.png",
     "id": "uruguai"
   }
 ]

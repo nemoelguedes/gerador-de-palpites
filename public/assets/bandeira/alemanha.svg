@@ -1,9 +1,0 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
-	<title>Novo Projeto</title>
-	<defs>
-		<image width="680" height="408" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iDQoJImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNSAzIj4NCgk8ZGVzYz5GbGFnIG9mIEdlcm1hbnk8L2Rlc2M+DQoJPHJlY3QgaWQ9ImJsYWNrX3N0cmlwZSIgd2lkdGg9IjUiIGhlaWdodD0iMyIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMCIvPg0KCTxyZWN0IGlkPSJyZWRfc3RyaXBlIiB3aWR0aD0iNSIgaGVpZ2h0PSIyIiB5PSIxIiB4PSIwIiBmaWxsPSIjRDAwIi8+DQoJPHJlY3QgaWQ9ImdvbGRfc3RyaXBlIiB3aWR0aD0iNSIgaGVpZ2h0PSIxIiB5PSIyIiB4PSIwIiBmaWxsPSIjRkZDRTAwIi8+DQo8L3N2Zz4NCg=="/>
-	</defs>
-	<style>
-	</style>
-	<use id="alemanha" href="#img1" transform="matrix(.882,0,0,.882,0,-5)"/>
-</svg>
