@@ -14,8 +14,6 @@ export default function App() {
 
   const [selectedTeams, setSelectedTeams] = useState(inicialSelectedTeams);
 
-  console.log("renderizou App");
-
   function onSelect(id: string) {
     if (selectedTeams.includes(id) == true) {
       setSelectedTeams([]);
@@ -56,10 +54,10 @@ export default function App() {
               className={style.button}
               onClick={(e) => onSelect(team.id)}>
 
-              <div className={classNames({
+              <img src={team.flag} className={classNames({
                 [style.selectTeam]: true,
                 [selectedTeams.includes(team.id) ? style["selectTeam--active"] : ""]: true,
-              })} style={{ backgroundImage: `url(${team.flag})` }}></div>
+              })} />
 
               <div className={style.title}>
                 {team.teams}
@@ -69,9 +67,11 @@ export default function App() {
         </div>
       </section >
 
+
       {/* TEAMS */}
-      <Teams selected={selectedTeams} />
+      {selectedTeams.length !== 2 ? ""
+        : <Teams selected={selectedTeams} />}
     </>
   );
-  
+
 }

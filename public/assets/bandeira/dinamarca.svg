@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 28"><path fill="#c8102e" d="M0,0H37V28H0Z"/><path fill="#fff" d="M0,12H12V0H16V12H37V16H16V28H12V16H0Z"/></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+	<title>Novo Projeto</title>
+	<defs>
+		<image width="629" height="476" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDM3IDI4Ij48cGF0aCBmaWxsPSIjYzgxMDJlIiBkPSJNMCwwSDM3VjI4SDBaIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAsMTJIMTJWMEgxNlYxMkgzN1YxNkgxNlYyOEgxMlYxNkgwWiIvPjwvc3ZnPgo="/>
+	</defs>
+	<style>
+	</style>
+	<use id="dinamarca" href="#img1" transform="matrix(.954,0,0,.735,0,0)"/>
+</svg>

@@ -1,16 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600">
-	<rect width="900" height="600" fill="#00853f"/>
-	<rect x="300" width="600" height="600" fill="#fdef42"/>
-	<rect x="600" width="300" height="600" fill="#e31b23"/>
-	<g transform="translate(450,300)" fill="#00853f">
-		<g id="c">
-			<path id="t" d="M 0,-100 v 100 h 50 z" transform="rotate(18 0,-100)"/>
-			<use xlink:href="#t" transform="scale(-1,1)"/>
-		</g>
-		<use xlink:href="#c" transform="rotate(72)"/>
-		<use xlink:href="#c" transform="rotate(144)"/>
-		<use xlink:href="#c" transform="rotate(216)"/>
-		<use xlink:href="#c" transform="rotate(288)"/>
-	</g>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+	<title>Novo Projeto</title>
+	<defs>
+		<image width="900" height="600" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCI+DQoJPHJlY3Qgd2lkdGg9IjkwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiMwMDg1M2YiLz4NCgk8cmVjdCB4PSIzMDAiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjZmRlZjQyIi8+DQoJPHJlY3QgeD0iNjAwIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2UzMWIyMyIvPg0KCTxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ1MCwzMDApIiBmaWxsPSIjMDA4NTNmIj4NCgkJPGcgaWQ9ImMiPg0KCQkJPHBhdGggaWQ9InQiIGQ9Ik0gMCwtMTAwIHYgMTAwIGggNTAgeiIgdHJhbnNmb3JtPSJyb3RhdGUoMTggMCwtMTAwKSIvPg0KCQkJPHVzZSB4bGluazpocmVmPSIjdCIgdHJhbnNmb3JtPSJzY2FsZSgtMSwxKSIvPg0KCQk8L2c+DQoJCTx1c2UgeGxpbms6aHJlZj0iI2MiIHRyYW5zZm9ybT0icm90YXRlKDcyKSIvPg0KCQk8dXNlIHhsaW5rOmhyZWY9IiNjIiB0cmFuc2Zvcm09InJvdGF0ZSgxNDQpIi8+DQoJCTx1c2UgeGxpbms6aHJlZj0iI2MiIHRyYW5zZm9ybT0icm90YXRlKDIxNikiLz4NCgkJPHVzZSB4bGluazpocmVmPSIjYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjg4KSIvPg0KCTwvZz4NCjwvc3ZnPg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="senegal" href="#img1" transform="matrix(.667,0,0,.583,0,0)"/>
 </svg>

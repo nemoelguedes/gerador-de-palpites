@@ -1,6 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="900" height="600" viewBox="0 0 9 6">
-<title>Flag of Cameroon</title>
-<path d="M 0,0 H 9 V 6 H 0 Z" fill="#ce1126"/>
-<path d="M 0,0 H 3 V 6 H 0 Z" fill="#007a5e"/>
-<path d="M 6,0 H 9 V 6 H 6 Z" fill="#fcd116"/>
-<path d="M 4.0519978,8.9713793 5.2773166,8.0811325 H 3.7627392 L 4.9880581,8.9713793 4.5200279,7.5309302 Z" fill="#fcd116" transform="translate(-0.02077718,-5.3264359) matrix(1.0009411,0,0,1.0009411,-0.00350457,-0.00858636)"/></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+	<title>Novo Projeto</title>
+	<defs>
+		<image width="603" height="402" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI2MDAiIHZpZXdCb3g9IjAgMCA5IDYiPg0KPHRpdGxlPkZsYWcgb2YgQ2FtZXJvb248L3RpdGxlPg0KPHBhdGggZD0iTSAwLDAgSCA5IFYgNiBIIDAgWiIgZmlsbD0iI2NlMTEyNiIvPg0KPHBhdGggZD0iTSAwLDAgSCAzIFYgNiBIIDAgWiIgZmlsbD0iIzAwN2E1ZSIvPg0KPHBhdGggZD0iTSA2LDAgSCA5IFYgNiBIIDYgWiIgZmlsbD0iI2ZjZDExNiIvPg0KPHBhdGggZD0iTSA0LjA1MTk5NzgsOC45NzEzNzkzIDUuMjc3MzE2Niw4LjA4MTEzMjUgSCAzLjc2MjczOTIgTCA0Ljk4ODA1ODEsOC45NzEzNzkzIDQuNTIwMDI3OSw3LjUzMDkzMDIgWiIgZmlsbD0iI2ZjZDExNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMDIwNzc3MTgsLTUuMzI2NDM1OSkgbWF0cml4KDEuMDAwOTQxMSwwLDAsMS4wMDA5NDExLC0wLjAwMzUwNDU3LC0wLjAwODU4NjM2KSIvPjwvc3ZnPg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="camaroes" href="#img1" transform="matrix(.995,0,0,.995,0,-25)"/>
+</svg>

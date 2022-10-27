@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="780"><path fill="#ef3340" d="M0 0h900v780H0z"/><path fill="#fdda25" d="M0 0h600v780H0z"/><path d="M0 0h300v780H0z"/></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+	<title>Novo Projeto</title>
+	<defs>
+		<image width="900" height="780" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNzgwIj48cGF0aCBmaWxsPSIjZWYzMzQwIiBkPSJNMCAwaDkwMHY3ODBIMHoiLz48cGF0aCBmaWxsPSIjZmRkYTI1IiBkPSJNMCAwaDYwMHY3ODBIMHoiLz48cGF0aCBkPSJNMCAwaDMwMHY3ODBIMHoiLz48L3N2Zz4="/>
+	</defs>
+	<style>
+	</style>
+	<use id="belgica" href="#img1" transform="matrix(.672,0,0,.449,-5,0)"/>
+</svg>

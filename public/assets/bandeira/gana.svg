@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 9 6">
-	<title>Flag of Ghana</title>
-	<path fill="#006b3f" d="m0 0h9v6H0z"/>
-	<path fill="#fcd116" d="m0 0h9v4H0z"/>
-	<path fill="#ce1126" d="m0 0h9v2H0z"/>
-	<path d="m4.5 2 .6498 2-1.7013-1.2361h2.103L3.8502 4z"/>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+	<title>Novo Projeto</title>
+	<defs>
+		<image width="621" height="414" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgOSA2Ij4KCTx0aXRsZT5GbGFnIG9mIEdoYW5hPC90aXRsZT4KCTxwYXRoIGZpbGw9IiMwMDZiM2YiIGQ9Im0wIDBoOXY2SDB6Ii8+Cgk8cGF0aCBmaWxsPSIjZmNkMTE2IiBkPSJtMCAwaDl2NEgweiIvPgoJPHBhdGggZmlsbD0iI2NlMTEyNiIgZD0ibTAgMGg5djJIMHoiLz4KCTxwYXRoIGQ9Im00LjUgMiAuNjQ5OCAyLTEuNzAxMy0xLjIzNjFoMi4xMDNMMy44NTAyIDR6Ii8+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+	</style>
+	<use id="gana" href="#img1" transform="matrix(.966,0,0,.845,0,0)"/>
 </svg>

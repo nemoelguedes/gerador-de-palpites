@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="-36 -24 72 48">
-<title>Flag of South Korea</title>
-<path d="M-36-24h72v48h-72z" fill="#fff"/>
-<g transform="rotate(-56.3099325)"><!--arctan(-3/2)-->
-<g id="b2"><path id="b" d="M-6-26H6v2H-6zm0 3H6v2H-6zm0 3H6v2H-6z"/>
-<use xlink:href="#b" y="44"/></g>
-<path stroke="#fff" d="M0,17v10"/>
-<path fill="#cd2e3a" d="M0-12A12 12 0 0 1 0 12z"/>
-<path fill="#0047a0" d="M0-12A12 12 0 0 0 0 12 6 6 0 0 0 0 0z"/>
-<circle cy="-6" fill="#cd2e3a" r="6"/></g>
-<g transform="rotate(-123.6900675)"><use xlink:href="#b2"/>
-<path stroke="#fff" d="M0-23.5v3M0,17v3.5M0,23.5v3"/></g></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+	<title>Novo Projeto</title>
+	<defs>
+		<image width="648" height="432" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI2MDAiIHZpZXdCb3g9Ii0zNiAtMjQgNzIgNDgiPg0KPHRpdGxlPkZsYWcgb2YgU291dGggS29yZWE8L3RpdGxlPg0KPHBhdGggZD0iTS0zNi0yNGg3MnY0OGgtNzJ6IiBmaWxsPSIjZmZmIi8+DQo8ZyB0cmFuc2Zvcm09InJvdGF0ZSgtNTYuMzA5OTMyNSkiPjwhLS1hcmN0YW4oLTMvMiktLT4NCjxnIGlkPSJiMiI+PHBhdGggaWQ9ImIiIGQ9Ik0tNi0yNkg2djJILTZ6bTAgM0g2djJILTZ6bTAgM0g2djJILTZ6Ii8+DQo8dXNlIHhsaW5rOmhyZWY9IiNiIiB5PSI0NCIvPjwvZz4NCjxwYXRoIHN0cm9rZT0iI2ZmZiIgZD0iTTAsMTd2MTAiLz4NCjxwYXRoIGZpbGw9IiNjZDJlM2EiIGQ9Ik0wLTEyQTEyIDEyIDAgMCAxIDAgMTJ6Ii8+DQo8cGF0aCBmaWxsPSIjMDA0N2EwIiBkPSJNMC0xMkExMiAxMiAwIDAgMCAwIDEyIDYgNiAwIDAgMCAwIDB6Ii8+DQo8Y2lyY2xlIGN5PSItNiIgZmlsbD0iI2NkMmUzYSIgcj0iNiIvPjwvZz4NCjxnIHRyYW5zZm9ybT0icm90YXRlKC0xMjMuNjkwMDY3NSkiPjx1c2UgeGxpbms6aHJlZj0iI2IyIi8+DQo8cGF0aCBzdHJva2U9IiNmZmYiIGQ9Ik0wLTIzLjV2M00wLDE3djMuNU0wLDIzLjV2MyIvPjwvZz48L3N2Zz4NCg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="coreia_do_sul" href="#img1" transform="matrix(.926,0,0,.81,0,0)"/>
+</svg>

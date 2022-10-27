@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480">
-<path fill="#FFF" d="m0,0h800v480H0"/>
-<path stroke="#C8102E" stroke-width="96" d="m0,240h800M400,0v480"/>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+	<title>Novo Projeto</title>
+	<defs>
+		<image width="800" height="480" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDgwIj4KPHBhdGggZmlsbD0iI0ZGRiIgZD0ibTAsMGg4MDB2NDgwSDAiLz4KPHBhdGggc3Ryb2tlPSIjQzgxMDJFIiBzdHJva2Utd2lkdGg9Ijk2IiBkPSJtMCwyNDBoODAwTTQwMCwwdjQ4MCIvPgo8L3N2Zz4="/>
+	</defs>
+	<style>
+	</style>
+	<use id="inglaterra" href="#img1" transform="matrix(.75,0,0,.729,0,0)"/>
 </svg>

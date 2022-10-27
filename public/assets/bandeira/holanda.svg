@@ -1,5 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 9 6">
-<rect fill="#21468B"	width="9" height="6"/>
-<rect fill="#FFF" width="9" height="4"/>
-<rect fill="#AE1C28"	width="9" height="2"/>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+	<title>Novo Projeto</title>
+	<defs>
+		<image width="603" height="402" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgOSA2Ij4NCjxyZWN0IGZpbGw9IiMyMTQ2OEIiCXdpZHRoPSI5IiBoZWlnaHQ9IjYiLz4NCjxyZWN0IGZpbGw9IiNGRkYiIHdpZHRoPSI5IiBoZWlnaHQ9IjQiLz4NCjxyZWN0IGZpbGw9IiNBRTFDMjgiCXdpZHRoPSI5IiBoZWlnaHQ9IjIiLz4NCjwvc3ZnPg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="holanda" href="#img1" transform="matrix(.995,0,0,.871,0,0)"/>
 </svg>

@@ -78,100 +78,94 @@ export default function Teams(props: ITeams) {
     }
   }, [listSelectedTeams]);
 
-  console.log("showTeamScreen", showTeamScreen);
-
 
   return (
     <>
-      <section className={classNames({
-        [style.container]: true,
-        [style.hidden]: !showTeamScreen,
-      })}>
+
+      {!showTeamScreen == true ? ""
+        : <section className={style.container}>
 
 
-        {/* BANDEIRA */}
-        <div className={style.team__container}>
-          <div className={style.team__content}>
-            <ImportFlag content={firstTeam[4]} />
-            <TitleSeparador content={""} />
-            <ImportFlag content={secondTeam[4]} />
+          {/* BANDEIRA */}
+          <div className={style.team__container}>
+            <div className={style.team__content}>
+              <ImportFlag content={firstTeam[4]} />
+              <TitleSeparador content={""} />
+              <ImportFlag content={secondTeam[4]} />
+            </div>
           </div>
-        </div>
 
 
-        {/* NOME DA SELEÇÃO */}
-        <div className={style.team__container}>
-          <div className={style.team__content}>
-            <TeamTitle title={firstTeam[0]} width={50} />
-            <TitleSeparador content={<img src="assets/vs.png" ></img>} />
-            <TeamTitle title={secondTeam[0]} width={50} />
+          {/* NOME DA SELEÇÃO */}
+          <div className={style.team__container}>
+            <div className={style.team__content}>
+              <TeamTitle title={firstTeam[0]} width={50} />
+              <TitleSeparador content={<img src="assets/vs.png" ></img>} />
+              <TeamTitle title={secondTeam[0]} width={50} />
+            </div>
+            <hr className={style.team__separador}></hr>
           </div>
-          <hr className={style.team__separador}></hr>
-        </div>
 
 
-        {/* TÍTULOS */}
-        <div className={style.team__container}>
-          <div className={style.team__content}>
-            <Championships championships={firstTeam[1]} />
-            <TitleSeparador content={"Títulos"} />
-            <Championships championships={secondTeam[1]} />
+          {/* TÍTULOS */}
+          <div className={style.team__container}>
+            <div className={style.team__content}>
+              <Championships championships={firstTeam[1]} />
+              <TitleSeparador content={"Títulos"} />
+              <Championships championships={secondTeam[1]} />
+            </div>
+            <hr className={style.team__separador}></hr>
           </div>
-          <hr className={style.team__separador}></hr>
-        </div>
 
 
-        {/* RANKING */}
-        <div className={style.team__container}>
-          <div className={style.team__content}>
-            <Ranking ranking={firstTeam[2]} info={"º Colocado"} />
-            <TitleSeparador content={"Ranking Fifa"} />
-            <Ranking ranking={secondTeam[2]} info={"º Colocado"} />
+          {/* RANKING */}
+          <div className={style.team__container}>
+            <div className={style.team__content}>
+              <Ranking ranking={firstTeam[2]} info={"º Colocado"} />
+              <TitleSeparador content={"Ranking Fifa"} />
+              <Ranking ranking={secondTeam[2]} info={"º Colocado"} />
+            </div>
+            <hr className={style.team__separador}></hr>
           </div>
-          <hr className={style.team__separador}></hr>
-        </div>
 
-        {buttonMessage == true && allSelected == false ? <Message mensagem={"Informe a qualidade do Ataque e Defesa das Seleções:"} /> : ""}
+          {buttonMessage == true && allSelected == false ? <Message mensagem={"Informe a qualidade do Ataque e Defesa das Seleções:"} /> : ""}
 
-        {/* ATAQUE */}
-        <div className={style.team__container}>
-          <div className={style.team__content}>
-            <Rating handleRating={updateFirstAttackRating} content={listSelectedTeams} />
-            <TitleSeparador content={"Ataque"} />
-            <Rating handleRating={updateSecondAttackRating} content={listSelectedTeams} />
+          {/* ATAQUE */}
+          <div className={style.team__container}>
+            <div className={style.team__content}>
+              <Rating handleRating={updateFirstAttackRating} content={listSelectedTeams} />
+              <TitleSeparador content={"Ataque"} />
+              <Rating handleRating={updateSecondAttackRating} content={listSelectedTeams} />
+            </div>
+            <hr className={style.team__separador}></hr>
           </div>
-          <hr className={style.team__separador}></hr>
-        </div>
 
-        {/* DEFENSE */}
-        <div className={style.team__container}>
-          <div className={style.team__content}>
-            <Rating handleRating={updateFirstDefenseRating} content={listSelectedTeams} />
-            <TitleSeparador content={"Defesa"} />
-            <Rating handleRating={updateSecondDefenseRating} content={listSelectedTeams} />
+          {/* DEFENSE */}
+          <div className={style.team__container}>
+            <div className={style.team__content}>
+              <Rating handleRating={updateFirstDefenseRating} content={listSelectedTeams} />
+              <TitleSeparador content={"Defesa"} />
+              <Rating handleRating={updateSecondDefenseRating} content={listSelectedTeams} />
+            </div>
+            <hr className={style.team__separador}></hr>
           </div>
-          <hr className={style.team__separador}></hr>
-        </div>
 
 
 
 
-        <div className={style.team__container}>
-          <button className={classNames({
-            [style.button]: true,
-            [allSelected == true ? style["button--active"] : style["button--inactive"]]: true,
-          })} onClick={gerarPalpite}>Gerar Palpite</button>
+          <div className={style.team__container}>
+            <button className={classNames({
+              [style.button]: true,
+              [allSelected == true ? style["button--active"] : style["button--inactive"]]: true,
+            })} onClick={gerarPalpite}>Gerar Palpite</button>
 
-        </div>
-      </section >
+          </div>
+        </section >}
+
 
       {/* // TEAM [TEAM, CHAMPIONSHIPS, RANK, RANKPOINTS, FLAG, ID, ATTACK, DEFENSE] */}
-      <div className={classNames({
-        [style.hidden]: !showResultsScreen,
-      })}>
-
-        <Results firstTeam={[firstTeam[0], firstTeam[1], firstTeam[2], firstTeam[3], firstTeam[4], firstTeam[5], firstAttackRating, firstDefenseRating]} secondTeam={[secondTeam[0], secondTeam[1], secondTeam[2], secondTeam[3], secondTeam[4], secondTeam[5], secondAttackRating, secondDefenseRating]} />
-      </div>
+      {!showResultsScreen == true ? ""
+        : <Results firstTeam={[firstTeam[0], firstTeam[1], firstTeam[2], firstTeam[3], firstTeam[4], firstTeam[5], firstAttackRating, firstDefenseRating]} secondTeam={[secondTeam[0], secondTeam[1], secondTeam[2], secondTeam[3], secondTeam[4], secondTeam[5], secondAttackRating, secondDefenseRating]} />}
 
     </>
   );
